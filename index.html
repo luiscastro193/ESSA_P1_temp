@@ -21,7 +21,7 @@
 		<header class="main-header">
 			<label for="main-info-checkbox"><h1>Encuesta Sanitaria y Social: resultados descriptivos (Panel 1) <span><i class="fa-solid fa-circle-info"></i></span></h1></label>
 			<input id="main-info-checkbox" type="checkbox">
-			<p class="main-info">Para obtener los resultados descriptivos de la ESSA (usando solo el Panel 1) pulse el botón Visualizar una vez haya seleccionado las variables, los estimadores, las segmentaciones y las mediciones.</p>
+			<p class="main-info">Para obtener los resultados descriptivos de la ESSA (usando solo el Panel 1 en la Medición 4) pulse el botón Visualizar una vez haya seleccionado las variables, los estimadores, las segmentaciones y las mediciones.</p>
 		</header>
 		<section class="downloads">
 			<span><i class="fa-solid fa-download"></i></span>
@@ -47,10 +47,6 @@
 				</div>
 				<form id="est-selection" class="selection-form"></form>
 			</section>
-			<a class="distr-link" href="#/evolution" target="_blank"><span>Ver descripción de las mediciones</span><span><i class="fa-solid fa-circle-info"></i></span></a>
-			<button class="main-button" disabled>Visualizar</button>
-		</div>
-		<div class="main-column">
 			<section class="selection-block">
 				<div class="selection-header">
 					<input id="seg-info-checkbox" type="checkbox">
@@ -67,6 +63,9 @@
 				</div>
 				<form id="m-selection" class="selection-form"></form>
 			</section>
+			<a class="distr-link" href="#/evolution" target="_blank"><span>Ver descripción de las mediciones</span><span><i class="fa-solid fa-circle-info"></i></span></a>
+			<a class="distr-link" href="data/Muestras.zip" download hidden><span>Descargar distribución de la muestra</span><span><i class="fa-solid fa-circle-info"></i></span></a>
+			<button class="main-button" disabled>Visualizar</button>
 		</div>
 	</main>
 </body>
